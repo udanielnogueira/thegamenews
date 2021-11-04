@@ -83,3 +83,18 @@ a:visited{
     height: 400px;
 }
 
+#main button{
+    margin-top: 15px;
+}
+
+form input{
+    padding: 7px;
+}
+
+form textarea{
+    resize: none;
+}
+
+#redes-sociais h1{
+    font-size: 100px;
+}
