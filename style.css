@@ -5,9 +5,13 @@
     color: white;
 }
 
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #cabecalho{
     padding-bottom: 170px;
-    width: 100%;
 }
 
 #logo{
@@ -16,30 +20,27 @@
     text-align: center;
 }
 
+#h1-logo{
+    color: rgb(8, 197, 8);
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
 #menu{
     width: 1%;
     float: left;
 
-    margin: 0;
-    padding: 0; 
+    margin: 0px;
+    padding: 0px; 
 }
 
 #menu ul li{
-    text-align: right;
+    text-align: left;
     list-style-type: none;
 
-    margin: 0;
-    padding: 0;
+    margin-left: -20px
 }
-
-#h1-logo{
-    color: rgb(8, 197, 8);
-    font-size: 100px;
-    margin: 0;
-    padding: 0;
-}
-
-
 
 table {
     width: 100%;
@@ -62,3 +63,22 @@ a:hover{
 a:visited{
     color: rgb(35, 214, 35);
 }
+
+#relacionadas li{
+    list-style-type: none;
+}
+
+#main h1{
+    color: rgb(8, 197, 8);
+}
+
+#main figure{
+    margin: 0;
+    padding: 0;
+}
+
+#main img{
+    width: 700px;
+    height: 400px;
+}
+
