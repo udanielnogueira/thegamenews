@@ -7,31 +7,18 @@
 
     <link rel="stylesheet" href="style.css"/>
     <script type="text/javascript" src="script.js"></script>
-
-    <style>
-        html{
-            background-color: black;
-            color: white;
-            font-family:Arial, Helvetica, sans-serif;
-        }
-
-        table {
-            width: 100%;
-}
-
-    </style>
 </head>
 
 <body>
 
 <!--cabeçalho-->
-<header>
-    <hgroup>
-        <h1>The Game News</h1>
+<header id="cabecalho">
+    <hgroup id="logo">
+        <h1 id="h1-logo">The Game News</h1>
         <h3>Seu portal de notícias do mundo gamer</h3>
     </hgroup>
 
-    <nav>
+    <nav id="menu">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
@@ -43,6 +30,7 @@
 <!--conteúdo-->
 <main>
     <hr>
+
     <!--artigo 1-->
     <article>
         <header>
@@ -50,7 +38,7 @@
             <h2>Uma lista completa e atualizada</h2>
         </header>
         <figure>
-            <img src="assets/league-of-legends-1.jpg" alt="palavra-chave ou descrição" width="1080" height="720"/>
+            <img src="assets/league-of-legends-1.jpg" alt="league of legends scene" width="1080" height="720"/>
         </figure>
         <aside>
             <p>Se você está procurando os jogos mais jogados do mundo no momento, esta é a lista mais abrangente até agora. Analisamos e classificamos os 25 jogos mais populares que você deveria jogar agora.</p>
@@ -83,7 +71,6 @@
                 <li>Destiny 2</li>
                 <li>Grand Chase</li>
                 <li>Rocket League</li>
-                
             </ol>
         </aside>
         <footer>
@@ -100,7 +87,7 @@
             <h2>Cyberpunk 2077 e God Of War são destaques</h2>
         </header>
         <figure>
-            <img src="assets/horizon-1.jpg" alt="palavra-chave ou descrição" width="1080" height="720"/>
+            <img src="assets/horizon-1.jpg" alt="horizon scene" width="1080" height="720"/>
         </figure>
         <aside>
             <p>O mês de setembro está chegando ao fim e está na hora de conferir os jogos mais vendidos no mês na Amazon. Com destaque para os games Cyberpunk 2077 e God Of War, os jogos listados ainda contam com desconto!</p>
@@ -110,43 +97,43 @@
             <table border="1">
 
                 <thead>
-                    <tr align="center">
+                    <tr>
                         <th>Jogo</th>
                         <th>Preço</th> <!--faz notas ocupar x colunas-->
                     </tr>
                 </thead>
         
                 <tbody>
-                    <tr align="center">
+                    <tr>
                         <td>Cyberpunk 2077</td>
                         <td>R$ 68,60</td>
                     </tr>
                 </tbody>
 
                 <tbody>
-                    <tr align="center">
+                    <tr>
+                        <td>God Of War Hits</td>
+                        <td>R$ 59,90</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
                         <td>Marvel's Spider-Man</td>
                         <td>R$ 142,99</td>
                     </tr>
                 </tbody>
 
                 <tbody>
-                    <tr align="center">
-                        <td>God Of War - Hits</td>
-                        <td>R$ 59,90</td>
-                    </tr>
-                </tbody>
-
-                <tbody>
-                    <tr align="center">
+                    <tr>
                         <td>Horizon Forbidden West Edição Especial</td>
                         <td>R$ 290,31</td>
                     </tr>
                 </tbody>
 
                 <tbody>
-                    <tr align="center">
-                        <td>Grand Theft Auto V - Premium Online Edition</td>
+                    <tr>
+                        <td>Grand Theft Auto V Premium Online Edition</td>
                         <td>R$ 104,41</td>
                     </tr>
                 </tbody>
@@ -168,8 +155,8 @@
 
     <section>
         <h2>Notícias relacionadas</h2>
-        <li><a href="#">Console ou Computador?</a></li>
         <li><a href="#">Top 5 dicas para jogar LOL</a></li>
+        <li><a href="#">Console ou Computador?</a></li>
         <li><a href="#">Requisitos para PC</a></li>
     </section>
 
